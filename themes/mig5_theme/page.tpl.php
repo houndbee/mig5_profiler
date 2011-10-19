@@ -120,8 +120,8 @@
 
             <?php if (!empty($logo)): ?>
               <div id="logo">
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-                  <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                <a href="<?php print $front_page; ?>" title="<?php print t('Front'); ?>" rel="Front">
+                  <img src="<?php print $logo; ?>" alt="<?php print t('Front'); ?>" />
                 </a>
               </div>
             <?php endif; ?>
@@ -130,11 +130,11 @@
               <div id="name-and-slogan">
                 <?php if (!empty($site_name)): ?>
                   <div id="site-name">
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
+                    <a href="<?php print $front_page; ?>" title="<?php print t('Front'); ?>" rel="Front"><?php print $site_name; ?></a>
                   </div>
                 <?php else: /* Use h1 when the content title is empty */ ?>
                   <h1 id="site-name">
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
+                    <a href="<?php print $front_page; ?>" title="<?php print t('Front'); ?>" rel="Front"><?php print $site_name; ?></a>
                   </h1>
                 <?php endif; ?>
 
