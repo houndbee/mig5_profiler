@@ -4,7 +4,7 @@
  * Properties inherited by all elements
  */
 html {
-  line-height: 1.5;
+  line-height: 1.4;
   word-wrap: break-word;
 }
 
@@ -38,7 +38,7 @@ tt {
  * Headings
  */
 h1 {
-  margin: 9px 0 9px;
+  margin: 10px 0 10px;
   font-size: 2em;
   line-height: 1.1;
 }
